@@ -184,4 +184,8 @@ def uploaded_file(filename):
 if __name__ == '__main__':
     load_models()
     print("\n🚀 MediVision AI Dashboard running at http://localhost:5000\n")
-    app.run(host='0.0.0.0', port=5000, debug=False, host='0.0.0.0')
+    app.run(host='0.0.0.0', port=5000, debug=False)
+   
+   
+
+   
